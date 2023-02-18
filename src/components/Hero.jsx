@@ -18,7 +18,7 @@ const Hero = () => {
             million people using NFTify <br /> Marketplace
           </p>
           {/* button */}
-          <div className="flex-col md:flex self-center gap-5 lg:justify-start justify-between">
+          <div className="flex flex-col sm:flex-row lg:self-auto self-center gap-5 lg:justify-start justify-between">
             <div className="btn-primary bg-black w-40 flex items-center justify-between mt-10  self-center lg:self-auto">
               <a className="flex items-center justify-between w-40" href="https://expo.dev/@nainishrai/NFTify?serviceType=classic&distribution=expo-go">{" "}
               <img src={ExpoIcon} className="w-8 h-8" />
